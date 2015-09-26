@@ -14,8 +14,7 @@
   },
   "author": "Frederik Andersen <fhan13@student.aau.dk>",
   "engines": {
-    "firefox": ">=38.0a1",
-    "fennec": ">=38.0a1"
+    "firefox": ">=38.0a1"
   },
   "license": "MIT",
   "preferences": [
