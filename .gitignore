@@ -64,3 +64,5 @@ tramp
 
 # cask packages
 .cask/
+
+*.xpi
