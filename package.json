@@ -1,29 +1,33 @@
 {
-    "title": "passwordgen",
-    "name": "passwordgen",
-    "version": "0.0.1",
-    "description": "A basic add-on to quickly generate a password. Click the lock icon in the toolbar to copy a random password to the clopboard.",
-    "homepage": "https://github.com/Medeah/passwordgen",
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Medeah/passwordgen.git"
-    },
-    "scripts": {
-        "test": "./node_modules/.bin/jshint . && jpm test"
-    },
-    "author": "Frederik Andersen <fhan13@student.aau.dk>",
-    "engines": {
-        "firefox": ">=38.0a1",
-        "fennec": ">=38.0a1"
-    },
-    "license": "MIT",
-    "preferences": [{
-        "name": "pwLength",
-        "title": "Password length",
-        "type": "integer",
-        "value": 20}],
-    "devDependencies": {
-        "jshint": "^2.8.0"
+  "title": "passwordgen",
+  "name": "passwordgen",
+  "version": "0.0.1",
+  "description": "A basic add-on to quickly generate a password. Click the lock icon in the toolbar to copy a random password to the clopboard.",
+  "homepage": "https://github.com/Medeah/passwordgen",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Medeah/passwordgen.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jshint . && jpm test"
+  },
+  "author": "Frederik Andersen <fhan13@student.aau.dk>",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "preferences": [
+    {
+      "name": "pwLength",
+      "title": "Password length",
+      "type": "integer",
+      "value": 20
     }
+  ],
+  "devDependencies": {
+    "jpm": "^1.0.1",
+    "jshint": "^2.8.0"
+  }
 }
