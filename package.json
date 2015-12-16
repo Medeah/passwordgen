@@ -1,7 +1,7 @@
 {
   "title": "passwordgen",
-  "name": "passwordgen",
-  "version": "0.0.1",
+  "name": "passwordgenerator",
+  "version": "0.0.3",
   "description": "A basic add-on to quickly generate a password. Click the lock icon in the toolbar to copy a random password to the clopboard.",
   "homepage": "https://github.com/Medeah/passwordgen",
   "main": "index.js",
