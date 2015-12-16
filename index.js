@@ -1,6 +1,7 @@
 var buttons = require('sdk/ui/button/action');
 var clipboard = require("sdk/clipboard");
 var utils = require('sdk/window/utils');
+var notifications = require("sdk/notifications");
 var preferences = require("sdk/simple-prefs").prefs;
 var z85 = require("base85");
 
@@ -19,6 +20,9 @@ var button = buttons.ActionButton({
 function handleClick(state) {
     var len = preferences.pwLength;
     clipboard.set(genPass(len));
+    notifications.notify({
+      title: "Clipboard set to random string"
+    });
 }
 
 function genPass(len) {
