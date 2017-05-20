@@ -1,5 +1,5 @@
 // https://github.com/noseglid/base85
-exports.base85Encode = function(buffer) {
+base85Encode = function(buffer) {
   var padding = (buffer.length % 4 === 0) ? 0 : 4 - buffer.length % 4;
 
   var result = '';
