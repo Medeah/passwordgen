@@ -1,6 +1,15 @@
 var copyText = document.querySelector("#input");
 copyText.value = genPass(20);
 
+var toggle = document.querySelector("#toggle");
+toggle.addEventListener("click", function () {
+    copyText.classList.toggle("hide");
+    if (toggle.innerHTML == "Hide") {
+        toggle.innerHTML = "Show"
+    } else {
+        toggle.innerHTML = "Hide"
+    }
+  });
 
 document.querySelector("#copy").addEventListener("click", function () {
   copyText.select();

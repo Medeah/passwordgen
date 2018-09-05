@@ -3,7 +3,7 @@
   "description": "A basic add-on to quickly generate a password. Click the lock icon in the toolbar to copy a random password to the clopboard.",
   "manifest_version": 2,
   "name": "passwordgenerator",
-  "version": "0.2.1",
+  "version": "0.2.2",
 
   "icons": {
     "48": "icons/icon.png",

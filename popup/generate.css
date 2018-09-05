@@ -1,0 +1,15 @@
+@font-face {
+    font-family:'dotsfont';
+    src:url('dist/otsfont.eot');
+    src:url('dist/dotsfont.eot?#iefix')  format('embedded-opentype'),
+        url('dist/dotsfont.svg#font')    format('svg'),
+        url('dist/dotsfont.woff')        format('woff'),
+        url('dist/dotsfont.ttf')         format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+input.hide {
+    font-family:dotsfont;
+    font-size: 8px;
+}
