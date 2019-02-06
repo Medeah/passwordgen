@@ -1,6 +1,6 @@
 A basic add-on to quickly generate a password. Click the lock icon in the toolbar to copy a random password to the clipboard.
 
-To test: visit about:debugging#addons and click Load Temporary Add-on
+To test: visit about:debugging#addons and click Load Temporary Add-on. Then select the manifest.json file.
 
 To package: Create a zip file and rename it to .xpi. Then go here and submit it for signing: https://addons.mozilla.org/en-GB/developers/addon/passwordgenerator1/versions/submit/
 
